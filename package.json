@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node server.js",
     "test2": "node server2.js",
-    "city": "node city.js"
+    "city": "node city.js",
+    "hanh-chinh": "node hanh-chinh.js"
   },
   "author": "NhuongPh",
   "license": "ISC",
