@@ -24,7 +24,7 @@ FS.unlink(PATH, (err) => {
 })
 
 function appendToFile (path, data, encode = 'utf8') {
-  FS.appendFile(path, data, encode, function (err) {
+  FS.appendFileSync(path, data, encode, function (err) {
     if (err) throw err;
   });
 }
