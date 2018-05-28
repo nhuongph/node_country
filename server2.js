@@ -28,9 +28,3 @@ function appendToFile (path, data, encode = 'utf8') {
     if (err) throw err;
   });
 }
-
-function writeToFile (path, data, encode = 'utf8') {
-  FS.writeFile(path, data, encode, function (err) {
-    if (err) throw err;
-  });
-}
