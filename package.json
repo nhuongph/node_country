@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node server.js",
-    "test2": "node server2.js"
+    "test2": "node server2.js",
+    "city": "node city.js"
   },
   "author": "NhuongPh",
   "license": "ISC",
