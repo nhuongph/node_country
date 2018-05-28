@@ -9,6 +9,7 @@
   "author": "NhuongPh",
   "license": "ISC",
   "dependencies": {
-    "xlsx": "^0.12.13"
+    "xlsx": "^0.12.13",
+    "yarn-install": "^1.0.0"
   }
 }
